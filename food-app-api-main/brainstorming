@@ -1,0 +1,9 @@
+user : 
+    id , email , password , cart_id
+
+cart :
+    id 
+
+cart_food :
+    cart_id , food_id(from the meal api)
+
