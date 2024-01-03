@@ -1,0 +1,48 @@
+/* Style pour la section contenant les détails de la recette */
+.recipe-section {
+  background-color: #f9f9f9; /* Couleur de fond de la section de la recette */
+  padding: 50px; /* Marge intérieure pour la section */
+  border-radius: 20px;
+}
+
+/* Style pour les détails de la recette */
+.recipe-details {
+  display: flex;
+  gap: 20px;
+}
+
+/* Style pour l'image de la recette */
+.recipe-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+/* Style pour le texte de la recette */
+.recipe-text {
+  flex: 1;
+}
+
+/* Style pour la partie du fond d'image */
+.background-image-section {
+  /* Appliquez votre image en arrière-plan */
+  background-color:#f9f9f9 ;
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+}
+
+/* Style pour le contenu de la partie du fond d'image */
+.background-content {
+  color:rgb(227, 92, 92); 
+   text-align: center;
+   border: 9px;
+}
+.parag_recip{
+  color:rgb(227, 92, 92);
+}

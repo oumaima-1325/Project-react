@@ -1,0 +1,48 @@
+
+.btn{
+    background-color: rgb(148, 148, 13);
+    color:white  !important;
+}
+.btn:hover{
+    color: rgb(148, 148, 13) !important;
+    background:  white !important;
+}
+
+.card{
+    border-radius: 5%;
+    background-color: rgb(231, 210, 210);
+}
+.result_search{
+    color:red;
+}
+.card-img-top{
+    border-radius: 5%;
+}
+.nav-login-cart {
+    display: flex;
+    align-items: center;    
+   
+}
+.nav-cart-count{
+    width: 13px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -38px;
+   
+    margin-left: -5px;
+    border-radius: 11px;
+    font-size: 8px;
+    background: red;
+    color: white;
+  }
+  .bas-cart-plus{
+    height: 25px;
+    width: 25px;
+  }
+  .container_home{
+    background-color: rgb(239, 232, 232);
+    width: 100%;
+    margin-top: 7px;
+  }

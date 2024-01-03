@@ -1,0 +1,177 @@
+
+.hero-header-home {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  height: 100vh;
+  margin-bottom: 0px;
+ 
+
+}
+
+
+.hero-header-home .slick-dots {
+  bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.hero-header-home .slick-dots li {
+  margin: 0 5px; 
+}
+
+.hero-header-home .slick-dots li  {
+  width: 11px;
+  height: 11px;
+  font-size: 0;
+  border-radius: 50%;
+  background-color: rgb(149, 146, 146);
+
+}
+
+
+.hero-header-home .slick-dots li.slick-active  {
+  background-color: black !important;
+}
+
+
+.hero-slider-home img {
+  width: 100%; 
+  height: 100%; 
+  display: block;
+  object-fit: cover; 
+}
+
+.hero-slider-home {
+  position: absolute;
+  top: 0;
+  left: 0;  
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Assurez-vous d'ajuster les styles pour correspondre à votre mise en page et à vos besoins spécifiques */
+.container {
+  position: relative;
+  z-index: 1;
+  /* Ajoutez ici d'autres styles pour le contenu principal du header */
+}
+
+header h2 {
+  margin-top: 150px;
+  font-size: 43px;
+  color: rgb(148, 148, 13);
+
+  line-height: 50px;
+ font-weight: bold;
+ width: 80%;
+ 
+}
+header p{
+  color: rgb(125, 131, 136);
+  margin: 13px 0px;
+  font-size: 19px;
+  font-weight: bold;
+}
+header button{
+  margin-left: 130px;
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  background-color:rgb(148, 148, 13);
+  border-radius: 10%;
+  border: 1px ;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  
+  font-weight: bold;
+}
+header button:hover{
+  color: white;
+
+}
+.btn-order{
+background-color: rgb(148, 148, 13);
+ color:white  !important;
+ border:none !important;
+}
+.btn-order:hover{
+background: rgb(148, 148, 13);
+border: none !important;
+}
+.click-red-home{
+color:rgb(148, 148, 13);
+text-underline-offset: none;
+}
+.click-red-home:hover{
+color: rgb(148, 148, 13);
+text-decoration: none;
+}
+.color_card_home{
+color:black;
+}
+.color_card_home:hover{
+color:black;
+text-underline-offset: none;
+text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+.hero-header {
+  height: 100vh; /* Ajuster la hauteur automatiquement */
+  text-align: center; /* Centrer le contenu */
+}
+
+.hero-slider img {
+  height: 100vh; /* Ajuster la hauteur de l'image automatiquement */
+}
+
+/* Autres ajustements pour les écrans moyens */
+}
+
+/* Ajustements pour les écrans jusqu'à une certaine largeur (y compris les téléphones) */
+@media screen and (max-width: 576px) {
+.hero-header {
+  height: 70vh; /* Ajuster la hauteur automatiquement */
+  text-align: center; /* Centrer le contenu */
+}
+header h2 {
+  justify-content: center;
+  font-size: 20px; /* Réduire la taille de la police */
+  width: 100%; /* Utiliser toute la largeur disponible */
+}
+
+.hero-slider {
+  height: auto; /* Ajuster la hauteur du slider automatiquement */
+}
+
+.hero-slider img {
+  width: 100%; /* Occuper toute la largeur disponible */
+  height: 70vh; /* Ajuster la hauteur de manière proportionnelle */
+  object-fit: cover; /* Redimensionner pour remplir sans déformer */
+}
+
+header h2 {
+  margin-top: 100px; /* Réduire l'espace au-dessus du titre */
+  font-size: 30px; /* Réduire la taille de la police */
+  width: 100%; /* Utiliser toute la largeur disponible */
+}
+header p{
+  color: white;
+}
+
+header p {
+  font-size: 12px; /* Réduire la taille de la police du paragraphe */
+  margin: 10px 0; /* Ajuster la marge */
+}
+
+header button {
+  width: 100px; /* Réduire la largeur du bouton */
+  font-size: 12px; /* Réduire la taille de la police du bouton */
+  margin-left: 0; /* Réinitialiser la marge à gauche */
+}
+}
+
